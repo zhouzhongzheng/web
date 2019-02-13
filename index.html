@@ -3,6 +3,7 @@
 <head>
 
     <meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0" />
+    <title>中正首页</title>
     <style type="text/css">
         .wenziyanse {
             color: red;
@@ -14,44 +15,38 @@
             color: blue;
             text-align: right;
         }
-        #zhengwena{
-            color:brown;
-            text-align: center;
-            size: 0vh;
+
+        #button {
+            background: #7892c2;
+            background-image: -webkit-linear-gradient(top, #7892c2, #476e9e);
+            background-image: -moz-linear-gradient(top, #7892c2, #476e9e);
+            background-image: -ms-linear-gradient(top, #7892c2, #476e9e);
+            background-image: -o-linear-gradient(top, #7892c2, #476e9e);
+            background-image: linear-gradient(to bottom, #7892c2, #476e9e);
+            -webkit-border-radius: 3;
+            -moz-border-radius: 3;
+            border-radius: 3px;
+            text-shadow: 0px 1px 0px #283966;
+            -webkit-box-shadow: inset 0px -3px 7px 0px #9fb4f2;
+            -moz-box-shadow: inset 0px -3px 7px 0px #9fb4f2;
+            box-shadow: inset 0px -3px 7px 0px #9fb4f2;
+            font-family: Arial;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 12px 30px 12px 30px;
+            border: solid #4e6096 1px;
+            text-decoration: none;
         }
     </style>
 </head>
 
-<body>
-    <div class="wenziyanse">Hello,Baby</div>
-    <div id="zhengwena">
-        <p>今天学习的英语单词</p>
-        <p>A</p>
-        <p>abandon</p>
-        <p>abdomen</p>
-        <p>abode</p>
-        <p>ability</p>
-        <p>able</p>
-        <p>aboard</p>
-        <p>abolish</p>
-        <p>abort</p>
-        <p>about</p>
-        <p>above</p>
-        <p>abroad</p>
-        <p>abrupt</p>
-        <p>absence</p>
-        <p>absent</p>
-        <p>absolute</p>
-    </div>
-    <div id="anniuyanse"><button style="color:saddlebrown" id="btn">点试试啊！</button></div>
+<body style="background-color:#1a2933;">
+    <div><input id="button" style="float: left;" type="button" value="英语"
+            onclick="javascrtpt:window.location.href='file:///F:/project/web/english.html'"></div>
+    <div><input id="button" type="button" style="float:right" value="web"
+            onclick="javascrtpt:window.location.href='file:///F:/project/web/web.html'"></div>
+   <div></div>         
 
-    <script>
-        var btn = document.getElementById('btn');
-        btn.addEventListener('click', function (e) {
-            alert('棒吧');
-        });
-
-    </script>
 </body>
 
 </html>
