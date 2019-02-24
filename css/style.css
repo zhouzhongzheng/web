@@ -1,0 +1,43 @@
+.menu {
+    padding: 0 0 0 32px;
+    margin: 0;
+
+    list-style: none;
+    height: 50px;
+    background:rgb(42, 194, 199) url(buttonl) repeat-x;
+    position: relative;
+    font-family: arial,Verdana, sans-serif;
+    margin-top:50px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.menu li.top{
+    display: block;
+    float: left;
+    position:relative;
+}
+.menu li a.top_link {
+    display:block;
+    float: left;
+    height: 40px;
+    line-height: 33px;
+    color: rgb(32, 28, 28) ;
+    text-decoration:none;
+    font-size: 15px;
+    font-weight: bold;
+    padding:0 0 0 12px;
+    cursor:pointer;
+}
+.menu li a.top_link span{
+
+    float: left;
+    font-weight: bold;
+    display: block;
+    padding:0 24px 0 12px;
+    height: 40px;
+
+}
+.menu li a.top_link:hover {
+    color:rgb(55, 150, 98);
+    background:url(button4.gif) no-repeat;
+}
